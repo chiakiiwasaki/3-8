@@ -1,5 +1,5 @@
-<p>Book was successfully created.</p>
+
 <p>Title：<%= @book.title %></p>
 <p>Body：<%= @book.body %></p>
 <%= link_to "Edit", edit_book_path(@book) %>
-<%= link_to "Delete", book_path(@book), method: :delete %>
+<%= link_to "Back", '/books' %>
